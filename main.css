@@ -74,6 +74,7 @@ h2{
     line-height: 9rem;
     text-align: center;
     font-size: 4rem;
+    cursor: pointer;
 }
 
 .color-reset-container{
