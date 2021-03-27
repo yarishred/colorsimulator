@@ -55,16 +55,23 @@ h2{
     height: 4rem;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), 4px 4px 5px rgba(0, 0, 0, 0.2);
     margin: 0 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form{
     width: 2.5rem;
     height: 2.5rem;
-    border: 1px solid #333;
+    border: 1px solid #000000;
     margin: 0.8rem auto;
     background-color: none;
     text-align: center;
     padding: 0.8rem;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: rgb(247, 244, 244);
 }
 
 .detailedForm{
@@ -75,6 +82,10 @@ h2{
     text-align: center;
     font-size: 4rem;
     cursor: pointer;
+}
+
+.fill{
+   fill: #ae232f;
 }
 
 .color-reset-container{
@@ -98,6 +109,7 @@ h2{
     color: white;
     font-size: 1.1rem;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .color-reset-container :first-child{
@@ -136,7 +148,7 @@ h2{
 }
 
 .color-item1{background-color: crimson;}
-.color-item2{background-color: teal;}
+.color-item2{background-color: #008080;}
 .color-item3{background-color: gold;}
 .color-item4{background-color: dodgerblue;}
 .color-item5{background-color: darkseagreen;}
